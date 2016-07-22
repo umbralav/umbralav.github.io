@@ -2,9 +2,13 @@ iframe{
 	display: inline-block;
 	max-width: 100%;
 }
-.container{
-	width: 980px;
+img{
+	max-width: 100%;
 }
+.container{
+	max-width: 980px;
+}
+/**********/
 .jumbotron{
 	background-image: url("../images/bg_jumbotron.jpg");
     background-size: cover;
@@ -12,6 +16,7 @@ iframe{
     background-repeat: no-repeat;
     margin-bottom: 0px;
 }
+/**********/
 .videotop{
 	background: black url("../images/bg_vid.jpg") no-repeat center;
 	border-bottom: 11px solid #d37f2a;
@@ -19,30 +24,71 @@ iframe{
 	padding-bottom: 70px;
 	text-align: center;
 }
+/**********/
 .documentales{
 	background: #8f8f8f;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.documentales .titlebox{
+	width: 208px;
+	height: 99px;
+	border: 3px solid white;
+	position: relative;
+}
+.documentales .titlebox h3{
+	left: 99px;
+    width: 290px;
+    position: absolute;
+    top: 15px;
+    font-size: 35px;
+	line-height: 1.2;
+	background: #8f8f8f;
+	color: white;
+}
+/**********/
 .commercial{
 	background: #f0f0f0;
-	padding-top: 60px;
+	padding-top: 120px;
 	padding-bottom: 60px;
 }
 .commercial .col-md-6, .videoclips .col-md-6{
 	padding: 0px;
 }
+.commercial .titlebox{
+	width: 170px;
+	height: 170px;
+	border: 3px solid #8f8f8f;
+	position: relative;
+	margin-top: -60px;
+}
+.commercial .titlebox h3{
+	color: #5F5F5F;
+	position: absolute;
+	left: 105px; 
+	width: 150px; 
+	top: 26px;
+	font-size: 35px;
+	line-height: 1.2;
+	background: #f0f0f0;
+	font-weight: lighter;
+	text-align: right;
+}
+
+/**********/
 .videoclips{
 	background: #d8dbba;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+/**********/
 .info{
 	background: #d37f2a;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	text-align: center;
 }
+/**********/
 .contacto{
 	background: black;
 	padding-top: 60px;
@@ -51,6 +97,7 @@ iframe{
 #contacto{
 	width: 500px;
 	margin: 0 auto;
+	max-width: 100%;
 }
 #contacto input, #contacto textarea{
 	width: 100%;
@@ -90,4 +137,11 @@ iframe{
 }
 #contacto textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    white;
+}
+/**********/
+.copyrights{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 10px solid #d3802a; 
 }
