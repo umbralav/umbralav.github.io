@@ -1,0 +1,93 @@
+iframe{
+	display: inline-block;
+	max-width: 100%;
+}
+.container{
+	width: 980px;
+}
+.jumbotron{
+	background-image: url("../images/bg_jumbotron.jpg");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+.videotop{
+	background: black url("../images/bg_vid.jpg") no-repeat center;
+	border-bottom: 11px solid #d37f2a;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.documentales{
+	background: #8f8f8f;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.commercial{
+	background: #f0f0f0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.commercial .col-md-6, .videoclips .col-md-6{
+	padding: 0px;
+}
+.videoclips{
+	background: #d8dbba;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.info{
+	background: #d37f2a;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.contacto{
+	background: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#contacto{
+	width: 500px;
+	margin: 0 auto;
+}
+#contacto input, #contacto textarea{
+	width: 100%;
+	background: #303030;
+	color: white;
+	border: 0px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+#contacto textarea{
+	height: 130px;
+}
+#contacto input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+#contacto input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+#contacto input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+#contacto input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+#contacto textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+#contacto textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+#contacto textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+#contacto textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
