@@ -1,3 +1,12 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
 iframe{
 	display: inline-block;
 	max-width: 100%;
@@ -8,6 +17,30 @@ img{
 .container{
 	max-width: 980px;
 }
+.btn_updown{
+	opacity: 0.7;
+}
+.btn_updown:hover{
+	opacity: 1;
+}
+.navbar-toggle .icon-bar{
+	background-color: black; 
+}
+.navbar-toggle{
+	float: none;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #d37f2a;
+	color: white !important;
+}
+/**********/
+.navbar li a{
+	text-transform: uppercase;
+	color: black !important;
+}
 /**********/
 .jumbotron{
 	background-image: url("../images/bg_jumbotron.jpg");
@@ -15,6 +48,15 @@ img{
     background-position: left top;
     background-repeat: no-repeat;
     margin-bottom: 0px;
+    position: relative;
+}
+.jumbotron .godown{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 /**********/
 .videotop{
@@ -25,44 +67,26 @@ img{
 	text-align: center;
 }
 /**********/
-.documentales{
-	background: #8f8f8f;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-.documentales .titlebox{
-	width: 208px;
-	height: 99px;
-	border: 3px solid white;
-	position: relative;
-}
-.documentales .titlebox h3{
-	left: 99px;
-    width: 290px;
-    position: absolute;
-    top: 15px;
-    font-size: 35px;
-	line-height: 1.2;
-	background: #8f8f8f;
-	color: white;
-}
-/**********/
-.commercial{
+.quienessomos{
 	background: #f0f0f0;
-	padding-top: 120px;
+	padding-top: 180px;
 	padding-bottom: 60px;
 }
-.commercial .col-md-6, .videoclips .col-md-6{
+.quienessomos .col-md-6, .videoclips .col-md-6{
 	padding: 0px;
 }
-.commercial .titlebox{
+.quienessomos .col-md-6.videohere{
+	line-height: 0;
+}
+.quienessomos .titlebox{
 	width: 170px;
 	height: 170px;
 	border: 3px solid #8f8f8f;
 	position: relative;
-	margin-top: -60px;
+	margin-top: -120px;
+	margin-bottom: 30px;
 }
-.commercial .titlebox h3{
+.quienessomos .titlebox h3{
 	color: #5F5F5F;
 	position: absolute;
 	left: 105px; 
@@ -74,12 +98,100 @@ img{
 	font-weight: lighter;
 	text-align: right;
 }
-
+.quienessomos p{
+	padding-right: 20px;
+}
+/**********/
+.documentales{
+	background: #8f8f8f;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.documentales .titlebox{
+	width: 208px;
+	height: 99px;
+	border: 3px solid white;
+	position: relative;
+	margin-bottom: 30px;
+	margin-top: -40px;
+}
+.documentales .titlebox h3{
+	left: 99px;
+    width: 290px;
+    position: absolute;
+    top: 15px;
+    font-size: 35px;
+	line-height: 1.2;
+	background: #8f8f8f;
+	color: white;
+	font-weight: 100;
+}
+.documentales p{
+	margin-bottom: 25px;
+}
+/**********/
+.commercial{
+	background: #f0f0f0;
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+.commercial .col-md-6, .videoclips .col-md-6{
+	padding: 0px;
+}
+.commercial .col-md-6.videohere{
+	line-height: 0;
+}
+.commercial .titlebox{
+	width: 220px;
+	height: 99px;
+	border: 3px solid #8f8f8f;
+	position: relative;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+.commercial .titlebox h3{
+	color: #8f8f8f;
+	position: absolute;
+	left: 20px;
+    width: 290px;
+	top: 0px;
+	font-size: 35px;
+	line-height: 1.2;
+	background: #f0f0f0;
+	font-weight: lighter;
+	text-align: right;
+}
+.commercial p{
+	padding-right: 20px;
+}
 /**********/
 .videoclips{
 	background: #d8dbba;
-	padding-top: 60px;
+	padding-top: 100px;
 	padding-bottom: 60px;
+}
+.videoclips .titlebox{
+	width: 208px;
+	height: 150px;
+	border: 3px solid white;
+	position: relative;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.videoclips .titlebox h3{
+	color: white;
+	position: absolute;
+	left: 95px; 
+	width: 150px; 
+	top: 10px;
+	font-size: 35px;
+	line-height: 1.2;
+	background: #d8dbba;
+	font-weight: lighter;
+	text-align: right;
+}
+.videoclips p{
+	margin-bottom: 25px;
 }
 /**********/
 .info{
@@ -88,11 +200,32 @@ img{
 	padding-bottom: 60px;
 	text-align: center;
 }
+.info h2{
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 0px;
+}
+.info h3{
+	font-size: 24px;
+	color: #c40233;
+	margin-top: 5px;
+}
+.info a{
+	color: black;
+}
 /**********/
 .contacto{
 	background: black;
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+.contacto .container{
+	position: relative;
+}
+.down_btn{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
 #contacto{
 	width: 500px;
@@ -109,6 +242,13 @@ img{
 }
 #contacto textarea{
 	height: 130px;
+}
+#contacto input[type="submit"]{
+	background: white;
+	color: black;
+	width: 150px;
+	display: block;
+	margin: 0 auto;
 }
 #contacto input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    white;
@@ -138,10 +278,59 @@ img{
 #contacto textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    white;
 }
+#text_thankyou{
+	text-align: center;
+	color: white;
+	padding: 10px;
+	display: none;
+}
 /**********/
 .copyrights{
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	border-top: 10px solid #d3802a; 
+}
+.copyrights img{
+	margin: 10px;
+	display: inline-block;
+}
+.copyrights a{
+	text-decoration: none !important;
+}
+
+@media screen and (max-width: 991px){
+	iframe{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.quienessomos .titlebox h3, .documentales .titlebox h3, .commercial .titlebox h3, .videoclips .titlebox h3{
+		position: static;
+		width: auto;
+		text-align: center;
+		margin: 0px;
+	}
+	.quienessomos .titlebox, .documentales .titlebox, .commercial .titlebox, .videoclips .titlebox{
+		width: auto;
+		height: auto;
+		text-align: center;
+		padding: 20px;
+	}
+	.quienessomos img, .commercial img{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px){
+	iframe{
+		height: 250px;
+	}
+}
+@media screen and (max-width: 374px){
+	.documentales .titlebox h3{
+		font-size: 25px;
+	}
 }
