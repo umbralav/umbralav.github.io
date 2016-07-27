@@ -36,6 +36,12 @@ img{
 	background-color: #d37f2a;
 	color: white !important;
 }
+.displaynone{
+	display: none !important;
+}
+.displayblock{
+	display: block !important; 
+}
 /**********/
 .navbar li a{
 	text-transform: uppercase;
