@@ -346,13 +346,13 @@ img{
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	.quienessomos .titlebox h3, .documentales .titlebox h3, .commercial .titlebox h3, .videoclips .titlebox h3{
+	.quienessomos .titlebox h3, .lodeotros .titlebox h3, .commercial .titlebox h3, .videoclips .titlebox h3{
 		position: static;
 		width: auto;
 		text-align: center;
 		margin: 0px;
 	}
-	.quienessomos .titlebox, .documentales .titlebox, .commercial .titlebox, .videoclips .titlebox{
+	.quienessomos .titlebox, .lodeotros .titlebox, .commercial .titlebox, .videoclips .titlebox{
 		width: auto;
 		height: auto;
 		text-align: center;
@@ -368,7 +368,7 @@ img{
 	}
 }
 @media screen and (max-width: 374px){
-	.documentales .titlebox h3{
+	.lodeotros .titlebox h3{
 		font-size: 25px;
 	}
 }
