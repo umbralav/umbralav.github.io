@@ -238,15 +238,15 @@ img{
 	margin-top: -40px;
 	margin-bottom: 40px;
 }
-.commercial .titlebox h3{
-	color: #8f8f8f;
+.contacto .titlebox h3{
+	color: white;
 	position: absolute;
-	left: 20px;
-    width: 290px;
-	top: 0px;
+	left: 95px; 
+	width: 150px; 
+	top: 10px;
 	font-size: 35px;
 	line-height: 1.2;
-	background: #f0f0f0;
+	background: #d8dbba;
 	font-weight: lighter;
 	text-align: right;
 }
