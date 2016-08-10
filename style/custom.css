@@ -128,7 +128,7 @@ img{
 	left: 99px;
     width: 290px;
     position: absolute;
-    top: 15px;
+    top: 9px;
     font-size: 35px;
 	line-height: 1.2;
 	background: #8f8f8f;
@@ -239,16 +239,15 @@ img{
 	margin-bottom: 40px;
 }
 .contacto .titlebox h3{
-	color: white;
-	position: absolute;
-	left: 95px; 
-	width: 150px; 
-	top: 10px;
-	font-size: 35px;
+	left: 99px;
+    width: 290px;
+    position: absolute;
+    top: 9px;
+    font-size: 35px;
 	line-height: 1.2;
-	background: #d8dbba;
-	font-weight: lighter;
-	text-align: right;
+	background: #8f8f8f;
+	color: white;
+	font-weight: 100;
 }
 .contacto .container{
 	position: relative;
