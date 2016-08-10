@@ -108,15 +108,15 @@ img{
 	padding-right: 20px;
 }
 /**********/
-.lodeotros{
+.documentales{
 	background: #8f8f8f;
 	padding-top: 100px;
 	padding-bottom: 60px;
 }
-.lodeotros .sinpaddigleft{
+.documentales .sinpaddigleft{
 	padding-left: 0;
 	}
-.lodeotros .titlebox{
+.documentales .titlebox{
 	width: 208px;
 	height: 99px;
 	border: 3px solid white;
@@ -124,18 +124,18 @@ img{
 	margin-bottom: 30px;
 	margin-top: -40px;
 }
-.lodeotros .titlebox h3{
+.documentales .titlebox h3{
 	left: 99px;
     width: 290px;
     position: absolute;
-    top: 5px;
+    top: 9px;
     font-size: 35px;
 	line-height: 1.2;
 	background: #8f8f8f;
 	color: white;
 	font-weight: 100;
 }
-.lodeotros p{
+.documentales p{
 	margin-bottom: 25px;
 }
 /**********/
@@ -346,13 +346,13 @@ img{
 		margin-right: 0px;
 		margin-left: 0px;
 	}
-	.quienessomos .titlebox h3, .lodeotros .titlebox h3, .commercial .titlebox h3, .videoclips .titlebox h3{
+	.quienessomos .titlebox h3, .documentales .titlebox h3, .commercial .titlebox h3, .videoclips .titlebox h3{
 		position: static;
 		width: auto;
 		text-align: center;
 		margin: 0px;
 	}
-	.quienessomos .titlebox, .lodeotros .titlebox, .commercial .titlebox, .videoclips .titlebox{
+	.quienessomos .titlebox, .documentales .titlebox, .commercial .titlebox, .videoclips .titlebox{
 		width: auto;
 		height: auto;
 		text-align: center;
@@ -368,7 +368,7 @@ img{
 	}
 }
 @media screen and (max-width: 374px){
-	.lodeotros .titlebox h3{
+	.documentales .titlebox h3{
 		font-size: 25px;
 	}
 }
