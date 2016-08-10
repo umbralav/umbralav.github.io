@@ -249,6 +249,10 @@ img{
 	color: white;
 	font-weight: 100;
 }
+.contacto p{
+	margin-bottom: 25px;
+	color: white;
+}
 .contacto .container{
 	position: relative;
 }
