@@ -230,6 +230,15 @@ img{
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+.contacto .titlebox{
+	width: 208px;
+	height: 150px;
+	border: 3px solid white;
+	position: relative;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+
 .contacto .container{
 	position: relative;
 }
