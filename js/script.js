@@ -30,4 +30,11 @@ jQuery(document).ready(function() {
 		scrollTop: $( $.attr(this, 'href') ).offset().top
 	    }, 1000);
 	});
+	
+	$("#btn_up").click(function(e){
+		e.preventDefault();
+		$('html, body').animate({
+		scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 1000);
+	});
 });
