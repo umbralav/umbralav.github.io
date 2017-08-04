@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 	   		e.preventDefault(); // avoid to execute the actual submit of the form.
 	});
 	
-	$("#btn_down").click(fucntion(e){
+	$("#btn_down").click(fucntion(){
 		e.preventDefault();
 		$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
