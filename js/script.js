@@ -24,8 +24,8 @@ jQuery(document).ready(function() {
 	   		e.preventDefault(); // avoid to execute the actual submit of the form.
 	});
 	
-	$("#btn_down").click(function(){
-		//e.preventDefault();
+	$("#btn_down").click(function(e){
+		e.preventDefault();
 		$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
 	    }, 1000);
